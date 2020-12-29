@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banksy", "Banksy\Banksy.csproj", "{2B840BF4-3B39-4C8E-A1C3-0DB7A594E8C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Banksy", "Banksy\Banksy.csproj", "{2B840BF4-3B39-4C8E-A1C3-0DB7A594E8C4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankLibrary", "BankLibrary\BankLibrary.csproj", "{57BF984F-DD99-4C34-B239-85276FAA62F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BanksyTests", "BanksyTests\BanksyTests.csproj", "{FF678DCE-86CB-4784-9D22-B2F14C95A296}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{2B840BF4-3B39-4C8E-A1C3-0DB7A594E8C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B840BF4-3B39-4C8E-A1C3-0DB7A594E8C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B840BF4-3B39-4C8E-A1C3-0DB7A594E8C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57BF984F-DD99-4C34-B239-85276FAA62F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57BF984F-DD99-4C34-B239-85276FAA62F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57BF984F-DD99-4C34-B239-85276FAA62F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57BF984F-DD99-4C34-B239-85276FAA62F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF678DCE-86CB-4784-9D22-B2F14C95A296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF678DCE-86CB-4784-9D22-B2F14C95A296}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF678DCE-86CB-4784-9D22-B2F14C95A296}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF678DCE-86CB-4784-9D22-B2F14C95A296}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
